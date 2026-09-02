@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sansh Solutions INC | Technology Solutions</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #ffffff;
+        }
+
+        header {
+            background: #0b1f3a;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0b1f3a, #164e78);
+            color: white;
+            text-align: center;
+            padding: 110px 20px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 21px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 28px;
+            background: white;
+            color: #0b1f3a;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 45px;
+            color: #0b1f3a;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .services {
+            background: #f4f7fa;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .service {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .service h3 {
+            color: #0b1f3a;
+            margin-bottom: 12px;
+        }
+
+        .service p {
+            color: #555;
+        }
+
+        .why-us {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .why-us ul {
+            list-style: none;
+        }
+
+        .why-us li {
+            padding: 15px 0;
+            font-size: 18px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .contact {
+            background: #0b1f3a;
+            color: white;
+            text-align: center;
+        }
+
+        .contact .section-title {
+            color: white;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #071426;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SANSH SOLUTIONS INC</div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Technology. Innovation. Solutions.</h1>
+
+    <p>
+        Building reliable technology solutions that help businesses
+        turn ideas into successful digital products.
+    </p>
+
+    <a class="button" href="#contact">Get In Touch</a>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Sansh Solutions</h2>
+
+    <div class="about">
+        <p>
+            Sansh Solutions INC provides technology and product development
+            services to help businesses transform ideas into reliable,
+            scalable and modern technology solutions.
+        </p>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="service-grid">
+
+        <div class="service">
+            <h3>Software & Product Development</h3>
+            <p>
+                Custom software and digital product development
+                designed around your business requirements.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Web Application Development</h3>
+            <p>
+                Modern, responsive and scalable web applications
+                for businesses of all sizes.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Mobile Application Development</h3>
+            <p>
+                Mobile solutions designed to provide excellent
+                experiences across modern devices.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Cloud & Technology Solutions</h3>
+            <p>
+                Cloud-based technology solutions that support
+                scalability, reliability and business growth.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>IT Consulting</h3>
+            <p>
+                Technology guidance to help organizations make
+                effective decisions and improve their digital systems.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Application Support</h3>
+            <p>
+                Ongoing application maintenance, improvements
+                and technical support.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="why-us">
+    <h2 class="section-title">Why Choose Us</h2>
+
+    <div class="why-us">
+        <ul>
+            <li>✓ Professional technology expertise</li>
+            <li>✓ Customized solutions for your business</li>
+            <li>✓ Scalable and reliable applications</li>
+            <li>✓ Focus on business requirements</li>
+            <li>✓ End-to-end product development</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <p><strong>Sansh Solutions INC</strong></p>
+
+    <p>
+        588 Warden Avenue<br>
+        Scarborough, Ontario, Canada
+    </p>
+</section>
+
+<footer>
+    © 2026 Sansh Solutions INC. All Rights Reserved.
+</footer>
+
+</body>
+</html>
